@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_move;
     private Button btn_move1;
     private Button btn_move2;
-    private Button btn_move3;
     private ImageView img;
     //private String str;
 
@@ -49,15 +48,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SubActivity2.class);
-                startActivity(intent);
-            }
-        });
-
-        btn_move3 = findViewById(R.id.btn_move3);
-        btn_move3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SubActivity3.class);
                 startActivity(intent);
             }
         });

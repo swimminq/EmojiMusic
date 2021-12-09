@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_gravity="center"
-        android:text="오늘은 즐거워!"/>
+        android:text="봄"/>
 
     <Button
         android:id="@+id/btn_move1"
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_gravity="center"
-        android:text="오늘은 우울한걸..."/>
+        android:text="여름"/>
 
     <Button
         android:id="@+id/btn_move2"
@@ -40,15 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_gravity="center"
-        android:text="오늘의 기분은 애매하네"/>
+        android:text="겨울"/>
 
-    <Button
-        android:id="@+id/btn_move3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_gravity="center"
-        android:text="지금 딱 자고싶은데"/>
 
     <ImageView
         android:id="@+id/img"
