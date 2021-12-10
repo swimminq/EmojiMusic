@@ -16,6 +16,7 @@
         android:textColor="#E88787"
         android:textStyle="bold"
         android:text="오늘의 기분을 골라주세요!"
+        android:textAlignment="center"
         />
 
     <Button
@@ -24,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_gravity="center"
-        android:text="봄"/>
+        android:text="신남"/>
 
     <Button
         android:id="@+id/btn_move1"
@@ -32,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_gravity="center"
-        android:text="여름"/>
+        android:text="우울"/>
 
     <Button
         android:id="@+id/btn_move2"
@@ -40,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_gravity="center"
-        android:text="겨울"/>
+        android:text="화남"/>
 
 
     <ImageView
