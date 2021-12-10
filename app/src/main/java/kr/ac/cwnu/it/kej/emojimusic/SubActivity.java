@@ -46,7 +46,7 @@ public class SubActivity extends AppCompatActivity {
         });
 
         mbtn_random = findViewById(R.id.btn_random);
-        TextView random_text1 = findViewById(R.id.random_text1);
+        TextView random_text = findViewById(R.id.random_text);
 
         mbtn_random.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,7 +56,7 @@ public class SubActivity extends AppCompatActivity {
 
                 int arr_random_num = random.nextInt(99) + 1;
                 // 랜덤숫자를 텍스트뷰에 대입
-                random_text1.setText(Integer.toString(arr_random_num));
+                random_text.setText(Integer.toString(arr_random_num));
             }
 
         });

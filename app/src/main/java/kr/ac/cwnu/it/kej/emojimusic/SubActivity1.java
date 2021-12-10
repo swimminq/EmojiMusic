@@ -20,7 +20,7 @@ public class SubActivity1 extends AppCompatActivity {
     private Button btn_sad;
     private ImageView img_sad;
 
-    Button mbtn_random;
+    Button mbtn_random1;
 
 
     @Override
@@ -28,7 +28,7 @@ public class SubActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub1);
 
-        btn_sad = findViewById(R.id.btn_sum);
+        btn_sad = findViewById(R.id.btn_sad);
         btn_sad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,10 +45,10 @@ public class SubActivity1 extends AppCompatActivity {
             }
         });
 
-        mbtn_random = findViewById(R.id.btn_random);
+        mbtn_random1 = findViewById(R.id.btn_random);
         TextView random_text1 = findViewById(R.id.random_text1);
 
-        mbtn_random.setOnClickListener(new View.OnClickListener() {
+        mbtn_random1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // 버튼클릭시 랜덤발생
